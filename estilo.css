@@ -1,3 +1,25 @@
-/*Dario Corbeira Presno UO295679*/
-
-
+/*Especifidad: 001*/
+body {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: #050505;
+    background-color: #fff;
+}
+/*Especifidad: 001*/
+header {
+    background-color: #f90303;
+}
+/*Especifidad: 001*/
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 2em; 
+  text-align: center;     
+}
+/*Especifidad: 001*/
+h2 {
+    color:#fff;
+}
+/*Especifidad: 001*/
+nav {
+    color: #fff;
+}
