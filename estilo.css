@@ -1,25 +1,77 @@
 /*Especifidad: 001*/
 body {
     font-family: Tahoma, Arial, Helvetica, sans-serif;
-    color: #050505;
-    background-color: #fff;
+    color: #fff;
+    background-color: #000000;
+    text-align: justify;
+    font-size: medium;
+}
+body > p:first-of-type {
+    font-size: calc(100vw / 150);
 }
 /*Especifidad: 001*/
 header {
-    background-color: #f90303;
+    color: #fff;
+    background-color: #0008FF;
+    font-size: 2em;
 }
 /*Especifidad: 001*/
 h1 {
   color: #fff;
+  background-color: #0008FF;
   text-transform: uppercase;
-  padding: 2em; 
-  text-align: center;     
 }
 /*Especifidad: 001*/
 h2 {
     color:#fff;
+    background-color: #000000;
+    text-align: center;
+}
+/*Especifidad: 001*/
+h4 {
+    color:#fff;
+    background-color: #000000;
 }
 /*Especifidad: 001*/
 nav {
     color: #fff;
+    background-color:  #0008FF;
+    text-align: center;
+    font-size: calc(100vw / 100);
+}
+/*Especifidad: 001*/
+a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+/*Especifidad: 001*/
+ul {
+    list-style-type: disc;
+}
+/*Especifidad: 002*/
+ul li {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+/*Especifidad: 001*/
+ol {
+    list-style-type: disc;
+}
+/*Especifidad: 002*/
+ol li {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+/*Especifidad: 010*/
+.lista-no-anidada {
+    list-style-type: upper-roman;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*Especifidad: 010*/
+.lista-anidada {
+    list-style-type: disc;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
 }
