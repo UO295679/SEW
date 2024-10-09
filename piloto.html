@@ -11,6 +11,7 @@
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="multimedia/favicon.ico" sizes="16x16" type="image/png" />
     <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="layout.css" />
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         <h1><a href="index.html" title="Inicio">F1 Desktop</a></h1>
         <nav>
             <a href="index.html" title="Inicio">Inicio</a>
-            <a href="piloto.html" title="Piloto Oscar Piastri">Piloto</a>
+            <a href="piloto.html" title="Piloto Oscar Piastri" class="active">Piloto</a>
             <a href="noticias.html" title="Noticias">Noticias</a>
             <a href="calendario.html" title="Calendario">Calendario</a>
             <a href="meteorologia.html" title="Meteorología">Meteorología</a>
@@ -27,7 +28,7 @@
             <a href="juegos.html" title="Juegos">Juegos</a>
         </nav>
     </header>
-    <p>Estas en: <a href="index.html" title="Inicio">Inicio</a> >> Piloto</p>
+    <p class="miga">Estas en: <a href="index.html" title="Inicio">Inicio</a> >> Piloto</p>
     <main>
     <section>
     <h4>Descripción</h4>
@@ -82,9 +83,9 @@
             <dd>La carga aerodinámica ayuda a que el vehículo se mantenga pegado al suelo, lo que se traduce en un mejor manejo y hasta en un automóvil más seguro.</dd>
     </dl>
     <h4>Resultados más destacados de Oscar Piastri</h4>
-    <ul class="lista-no-anidada">
+    <ul>
         <li>Temporada 2021
-            <ol class="=lista-anidada">
+            <ol>
                 <li>Gana el Campeonato de Fórmula 2 de la Fia</li>
                 <li>Sube por primera vez como piloto de pruebas a Fórmula 1 con el equipo Alpine F1 Team</li>
                 <li>Logra 6 victorias y 11 podios en 23 carreras</li>
@@ -130,13 +131,10 @@
     <a href="https://es.wikipedia.org/wiki/Oscar_Piastri">Oscar Piastri extendido</a>
     <a href="https://www.formula1.com/en/drivers/oscar-piastri">Oscar Piastri Fia</a>
     <h4>Multimedia</h4>
-    <video src="multimedia/VideoPiastri.mp4" controls preload="auto"></video>
     <video controls preload="auto">
         <source src="multimedia/VideoPiastri.mp4" type="video/mp4" />
         <source src="multimedia/VideoPiastri.webm" type="video/webm" />
     </video>
-    <audio src="multimedia/AudioPiastri.mp3" autoplay></audio>
-    <audio src="multimedia/AudioPiastri.mp3" controls></audio>
     <audio controls>
         <source src="multimedia/AudioPiastri.mp3" type="audio/mp3" />
         <source src="multimedia/AudioPiastri.wav" type="audio/wav" />
