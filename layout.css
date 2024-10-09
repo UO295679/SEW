@@ -45,6 +45,7 @@ nav a.active {
     header h1 {
         padding: 10px;
     }
+    /*Especifidad: 010*/
     .miga {
         display: none;
     }
