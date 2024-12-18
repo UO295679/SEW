@@ -1,0 +1,31 @@
+/*Especificidad: 001*/
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18.75em, 1fr));
+    gap: 1.25em;
+    margin: 1.25em;
+}
+/*Especificidad: 002*/
+main article {
+    background-color: #f9f9f9;
+    color: #000000;
+    border: 0.0625em solid #ddd;
+    border-radius: 0.5em;
+    padding: 0.9375em;
+    box-shadow: 0 0.125em 0.3125em #000000;
+    transition: transform 0.3s;
+}
+/*Especificidad: 003*/
+main article h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.625em;
+    background-color: #ddd;
+    color: #000000;
+}
+/*Especificidad: 003*/
+main article p {
+    margin: 0.3125em 0;
+    font-size: 1em;
+    background-color: #f9f9f9;
+    color: #000000;
+}

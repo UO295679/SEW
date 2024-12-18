@@ -1,0 +1,60 @@
+/*Especificidad: 001*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0008FF;
+    color: #fff;
+    margin-bottom: 1.25em;
+}
+/*Especificidad: 002*/
+header h1 {
+    margin: 0;
+}
+/*Especificidad: 003*/
+header nav a {
+    color: #fff;
+    background-color: #0008FF;
+    text-decoration: none;
+    margin-left: 0.9375em;
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    min-width: 3rem;
+    min-height: 3rem;
+    box-sizing: border-box;
+}
+/*Especificidad: 012*/
+nav a.active {
+    color: #ffcc00;
+    background-color: #0008FF;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media (max-width: 48em) {
+    /*Especificidad: 001*/
+    header {
+        flex-direction: column;
+    }
+    /*Especificidad: 002*/
+    header h1 {
+        font-size: 1.2em;
+    }
+    /*Especificidad: 003*/
+    header nav a {
+        margin-top: 0.625em;
+        font-size: 0.75rem;
+        padding: 0.75em 1em; /*Redefinición de propiedades derivadas del uso de @media-queries*/
+    }
+}
+
+@media (max-width: 30em) {
+    /*Especificidad: 001*/
+    header h1 {
+        padding: 0.625em;
+    }
+    /*Especificidad: 012*/
+    body > p:first-of-type {
+        display: none;
+    }
+}

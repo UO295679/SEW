@@ -1,0 +1,313 @@
+/*Especifidad: 001*/
+body {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #000;
+    text-align: justify;
+    font-size: 1em;
+}
+/*Especifidad: 012*/
+body > p:first-of-type {
+    font-size: calc(100vw / 150);
+}
+/*Especifidad: 001*/
+header {
+    color: #fff;
+    background-color: #0008FF;
+    font-size: 2em;
+}
+/*Especifidad: 001*/
+h1 {
+    color: #fff;
+    background-color: #0008FF;
+    text-transform: uppercase;
+    margin-bottom: 1.25em;
+    letter-spacing: 0.125em;
+}
+/*Especifidad: 001*/
+h2 {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
+/*Especifidad: 001*/
+h4 {
+    color: #fff;
+    background-color: #000;
+}
+/*Especifidad: 001*/
+h5 {
+    color:#000;
+    background-color: #fff;
+}
+/*Especifidad: 001*/
+nav {
+    color: #fff;
+    background-color: #0008FF;
+    text-align: center;
+    font-size: calc(100vw / 100);
+}
+/*Especifidad: 002*/
+header a {
+    color: #fff;
+    background-color: #0008FF;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+/*Especifidad: 001*/
+a {
+    color: #fff;
+    background-color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+/*Especifidad: 001*/
+ul {
+    list-style-type: disc;
+}
+/*Especifidad: 002*/
+ul li {
+    margin-bottom: 0.625em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+/*Especifidad: 001*/
+ol {
+    list-style-type: decimal;
+}
+/*Especifidad: 002*/
+ol li {
+    margin-bottom: 0.625em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+/*Especifidad: 002*/
+ul ul, ol ol, ul ol, ol ul {
+    list-style-type: circle;
+    font-size: 1em;
+}
+/*Especifidad: 001*/
+dl {
+    font-family: Arial, sans-serif;
+    margin: 1.25em 0;
+    border-left: 0.25em solid #007BFF;
+} 
+/*Especifidad: 001*/
+dt {
+    font-weight: bold;
+    font-size: 1.25em;
+    margin: 0.625em 0;
+    text-transform: uppercase;
+}
+/*Especifidad: 001*/
+dd {
+    margin-left: 1.875em;
+    font-size: 1em;
+    margin-bottom: 0.625em;
+} 
+/*Especifidad: 001*/
+table {
+    width: 80%;
+    margin: 1.25em auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+/*Especifidad: 001*/
+th, td {
+    border: 0.0625em solid #ddd;
+    padding: 0.75em 0.9375em;
+    text-align: center;
+    font-size: 1em;
+}
+/*Especifidad: 001*/
+th {
+    text-transform: uppercase;
+}
+/*Especifidad: 001*/
+caption {
+    font-size: 1.125em;
+    text-transform: uppercase;
+}
+/*Especifidad: 001*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*Especifidad: 001*/
+audio {
+    width: 100%;
+}
+/*Especifidad: 001*/
+video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+/*Especifidad: 002*/
+body > div {
+    width: 100%;
+    height: 65vh;
+}
+/*Especifidad: 002*/
+main > div {
+    width: 100%;
+    height: 75vh;
+}
+/*Especifidad: 001*/
+section {
+    margin: 2em auto;
+    padding: 1em;
+    background: #ddd;
+    color:#000;
+    border: 0.1em solid #ddd;
+    max-width: 37.5em;
+}
+/*Especificidad: 002*/
+section h2 {
+    margin-bottom: 0.625em;
+    text-align: center;
+    background-color: #ddd;
+    color:#000;
+}
+/*Especificidad: 002*/
+section h3 {
+    margin-bottom: 0.625em;
+    text-align: center;
+}
+/*Especificidad: 002*/
+section p {
+    font-size: 0.9em;
+    margin: 0.3125em 0;
+}
+/*Especificidad: 002*/
+main > section {
+    color: #fff;
+    background-color: #000;
+    text-align: justify;
+    font-size: 1em;
+}
+/*Especificidad: 003*/
+main > section h2 {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
+/*Especificidad: 003*/
+main > section form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.625rem;
+    max-width: 22.75em;
+}
+/*Especificidad: 004*/
+main > section form button {
+    grid-column: -1;
+}
+/*Especificidad: 002*/
+main > p {
+    text-align: center;
+}
+/*Especificidad: 002*/
+section > ul {
+    list-style-position: inside;
+    text-align: center;
+}
+/*Especificidad: 003*/
+section > ul li {
+    text-align: center;
+}
+/*Especificidad: 002*/
+section > ol {
+    list-style-position: inside;
+    text-align: center;
+}
+/*Especificidad: 003*/
+section > ol li {
+    text-align: center;
+}
+/*Especificidad: 002*/
+main > article {
+    margin-bottom: 0.825em;
+}
+/*Especificidad: 002*/
+body > label {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+/*Especificidad: 001*/
+form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.625rem;
+    max-width: 28.75em;
+}
+/*Especificidad: 002*/
+form label {
+    padding-right: 0.3125rem;
+}
+/*Especificidad: 002*/
+form input {
+    width: 100%;
+}
+/*Especificidad: 002*/
+body > article {
+    width: 100%;
+    max-width: 100vh;
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1em;
+}
+/*Especificidad: 003*/
+body > article h3 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 0.5em;
+      font-size: 2em;
+}
+/*Especificidad: 003*/
+body > article img {
+    width: 100%;
+    max-width: 100vh;
+    height: 60vh;
+    position: absolute;
+    transition: all 0.5s;
+    object-fit: cover;
+    border-radius: 0.5em;
+}
+/*Especificidad: 003*/
+body > article button {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 50%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: #fff;
+    color:#000;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+/*Especificidad: 013*/
+body > article button:active {
+    transform: scale(1.1);
+}
+/*Especificidad: 013*/
+body > article button:nth-of-type(2) {
+    top: 50%;
+    left: 2%;
+}
+/*Especificidad: 013*/ 
+body > article button:nth-of-type(1) {
+    top: 50%;
+    right: 2%;
+}
