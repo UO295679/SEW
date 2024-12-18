@@ -20,7 +20,7 @@ class Fondo {
             if (data.items.length > 0) {
                 $("body").css("background-image", "url('" + data.items[1].media.m.replace('_m', '_b') + "')");
                 $("body").css("background-size", "cover");
-                $("body").css("height", "100vh");
+                $("body").css("height", "100%");
                 $("body").css("width", "100%");
                 $("body").css("position", "center");
             }
