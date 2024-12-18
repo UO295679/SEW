@@ -7,11 +7,14 @@
     <title>F1 - Dario Corbeira Presno</title>
     <meta name ="author" content ="Dario Corbeira Presno" />
     <meta name ="description" content ="El circuito" />
-    <meta name ="keywords" content ="F1" />
+    <meta name ="keywords" content ="F1,  circuito" />
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="multimedia/favicon.ico" sizes="16x16" type="image/png" />
-    <link rel="stylesheet" type="text/css" href="estilo.css" />
-    <link rel="stylesheet" type="text/css" href="layout.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA48zD4Y2c-VjPVl7tkIlm24IHkqZ0RuYs"></script>
+    <script src="js/circuito.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
 </head>
 
 <body>
@@ -24,10 +27,23 @@
             <a href="calendario.html" title="Calendario">Calendario</a>
             <a href="meteorologia.html" title="Meteorología">Meteorología</a>
             <a href="circuito.html" title="Circuito" class="active">Circuito</a>
-            <a href="viajes.html" title="Viajes">Viajes</a>
+            <a href="viajes.php" title="Viajes">Viajes</a>
             <a href="juegos.html" title="Juegos">Juegos</a>
         </nav>
     </header>
     <p class="miga">Estas en: <a href="index.html" title="Inicio">Inicio</a> >> Circuito</p>
+    <main>
+        <label for="xml">Subir Archivo XML</label>
+        <input type="file" id="xml" accept=".xml">
+    
+        <label for="svg">Subir Archivo SVG</label>
+        <input type="file" id="svg" accept=".svg">
+
+        <label for="kml">Subir Archivo KML para Mostrar en el Mapa</label>
+        <input type="file" id="kml" accept=".kml">
+    </main>
+    <script>
+        const circuito = new Circuito();
+    </script>
 </body>
 </html>

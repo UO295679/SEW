@@ -10,8 +10,10 @@
     <meta name ="keywords" content ="F1" />
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="multimedia/favicon.ico" sizes="16x16" type="image/png" />
-    <link rel="stylesheet" type="text/css" href="estilo.css" />
-    <link rel="stylesheet" type="text/css" href="layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/fondo.js"></script>
 </head>
 
 <body>
@@ -24,10 +26,12 @@
             <a href="calendario.html" title="Calendario">Calendario</a>
             <a href="meteorologia.html" title="Meteorología">Meteorología</a>
             <a href="circuito.html" title="Circuito">Circuito</a>
-            <a href="viajes.html" title="Viajes">Viajes</a>
+            <a href="viajes.php" title="Viajes">Viajes</a>
             <a href="juegos.html" title="Juegos">Juegos</a>
         </nav>
     </header>
-    <p>En desarrollo</p>
+    <script>
+        const fondo = new Fondo("Emiratos Árabes Unidos", "Abu Dhabi", "Yas Marina");
+    </script>
 </body>
 </html>

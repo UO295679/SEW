@@ -7,11 +7,14 @@
     <title>F1 - Dario Corbeira Presno</title>
     <meta name ="author" content ="Dario Corbeira Presno" />
     <meta name ="description" content ="El calendario" />
-    <meta name ="keywords" content ="F1" />
+    <meta name ="keywords" content ="F1, calendario, carreras" />
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="multimedia/favicon.ico" sizes="16x16" type="image/png" />
-    <link rel="stylesheet" type="text/css" href="estilo.css" />
-    <link rel="stylesheet" type="text/css" href="layout.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/agenda.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/agenda_grid.css" />
 </head>
 
 <body>
@@ -24,10 +27,14 @@
             <a href="calendario.html" title="Calendario" class="active">Calendario</a>
             <a href="meteorologia.html" title="Meteorología">Meteorología</a>
             <a href="circuito.html" title="Circuito">Circuito</a>
-            <a href="viajes.html" title="Viajes">Viajes</a>
+            <a href="viajes.php" title="Viajes">Viajes</a>
             <a href="juegos.html" title="Juegos">Juegos</a>
         </nav>
     </header>
     <p class="miga">Estas en: <a href="index.html" title="Inicio">Inicio</a> >> Calendario</p>
+    <button onclick="agenda.obtenerCalendario()">Obtener Carreras</button>
+    <main>
+        <!-- Contenedor para mostrar las carreras -->
+    </main>
 </body>
 </html>
