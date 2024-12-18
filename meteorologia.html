@@ -7,11 +7,14 @@
     <title>F1 - Dario Corbeira Presno</title>
     <meta name ="author" content ="Dario Corbeira Presno" />
     <meta name ="description" content ="Meteorologia" />
-    <meta name ="keywords" content ="F1" />
+    <meta name ="keywords" content ="F1, meteorología" />
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="multimedia/favicon.ico" sizes="16x16" type="image/png" />
-    <link rel="stylesheet" type="text/css" href="estilo.css" />
-    <link rel="stylesheet" type="text/css" href="layout.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/pais.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/article_elements.css" />
 </head>
 
 <body>
@@ -24,10 +27,17 @@
             <a href="calendario.html" title="Calendario">Calendario</a>
             <a href="meteorologia.html" title="Meteorología" class="active">Meteorología</a>
             <a href="circuito.html" title="Circuito">Circuito</a>
-            <a href="viajes.html" title="Viajes">Viajes</a>
+            <a href="viajes.php" title="Viajes">Viajes</a>
             <a href="juegos.html" title="Juegos">Juegos</a>
         </nav>
     </header>
     <p class="miga">Estas en: <a href="index.html" title="Inicio">Inicio</a> >> Meteorología</p>
+    <script>
+        const pais = new Pais("Emiratos Árabes Unidos", "Abu Dhabi", 9300000);
+        pais.inicializarValores("Yas Marina", "Monarquía Federal", { lat: 24.469966, lon: 54.605500 }, "Islam");
+    </script>
+    <main>
+        <!-- Muestra los pronosticos-->
+    </main>
 </body>
 </html>
