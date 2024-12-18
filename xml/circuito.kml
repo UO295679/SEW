@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Yas Marina</name>
+
+    <!-- Definir el estilo de línea roja -->
+    <Style id="redLine">
+      <LineStyle>
+        <color>ff0000ff</color> <!-- Color rojo en formato AABBGGRR -->
+        <width>2</width>        <!-- Anchura de la línea -->
+      </LineStyle>
+    </Style>
+
+    <Placemark>
+      <name>Ruta del circuito</name>
+      <!-- Aplicar el estilo de línea roja -->
+      <styleUrl>#redLine</styleUrl>
+      <LineString>
+        <coordinates>
+          54.605500,24.469966,3.79 54.605500,24.469966,3.79 54.608065,24.470381,3.82 54.607555,24.472458,8.16 54.605880,24.473270,13.19 54.606106,24.475951,7.28 54.605641,24.478598,6.94 54.604953,24.478355,6.37 54.601522,24.468390,4.01 54.602251,24.468461,4.98 54.602826,24.466782,5.07 54.606274,24.464170,4.10 54.609059,24.463075,3.82 54.609616,24.463759,5.21 54.609154,24.464510,4.64 54.606527,24.464752,3.17 54.605492,24.465501,3.19 54.605323,24.466595,3.13 54.606502,24.466812,3.23 54.606375,24.467918,2.97 54.603523,24.467680,4.26 54.602651,24.468951,4.17 54.602630,24.469540,4.17 54.605500,24.469966,3.79
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

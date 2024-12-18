@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<circuito>
+    <nombre>Yas Marina</nombre>
+    <longitud unidad="km">5.281</longitud>
+    <anchura_media>14</anchura_media>
+    <fecha>2024-11-8</fecha>
+    <hora_inicio>14:00</hora_inicio>
+    <numero_vueltas>58</numero_vueltas>
+    <localidad>Abu Dabi</localidad>
+    <pais>Emiratos Árabes Unidos</pais>
+    <referencias>
+        <referencia>https://es.wikipedia.org/wiki/Circuito_Yas_Marina</referencia>
+        <referencia>https://www.f1-abudhabi.com/es/historia-del-circuito-10</referencia>
+        <referencia>https://www.circuitosdecarreras.com/emiratos-arabes-unidos/circuito-yas-marina/</referencia>
+    </referencias>
+    <galeria>
+        <fotografia>Panorama.jpg</fotografia>
+        <fotografia>RectaMeta.jpg</fotografia>
+        <fotografia>YasMarina.jpg</fotografia>
+    </galeria>
+    <galeria_videos>
+        <video>IntroduccionYasMarina.mp4</video>
+        <video>RecorridoCircuito.mp4</video>
+    </galeria_videos>
+    <coordenadas>
+        <coordenada>
+            <longitudCoor>54.605500</longitudCoor>
+            <latitud>24.469966</latitud>
+            <altitud>3.79</altitud>
+        </coordenada>
+    </coordenadas>
+    <tramos>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">262.33</distancia>
+                <longitudCoor>54.605500</longitudCoor>
+                <latitud>24.469966</latitud>
+                <altitud>3.79</altitud>
+                <sector>1</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">233.05</distancia>
+                <longitudCoor>54.608065</longitudCoor>
+                <latitud>24.470381</latitud>
+                <altitud>3.82</altitud>
+                <sector>1</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">190.2</distancia>
+                <longitudCoor>54.607555</longitudCoor>
+                <latitud>24.472458</latitud>
+                <altitud>8.16</altitud>
+                <sector>1</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">130.54</distancia>
+                <longitudCoor>54.605880</longitudCoor>
+                <latitud>24.473270</latitud>
+                <altitud>13.19</altitud>
+                <sector>1</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">288.34</distancia>
+                <longitudCoor>54.606106</longitudCoor>
+                <latitud>24.475951</latitud>
+                <altitud>7.28</altitud>
+                <sector>1</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">74.58</distancia>
+                <longitudCoor>54.605641</longitudCoor>
+                <latitud>24.478598</latitud>
+                <altitud>6.94</altitud>
+                <sector>2</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">1145.42</distancia>
+                <longitudCoor>54.604953</longitudCoor>
+                <latitud>24.478355</latitud>
+                <altitud>6.37</altitud>
+                <sector>2</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">73.06</distancia>
+                <longitudCoor>54.601522</longitudCoor>
+                <latitud>24.468390</latitud>
+                <altitud>4.01</altitud>
+                <sector>2</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">198.28</distancia>
+                <longitudCoor>54.602251</longitudCoor>
+                <latitud>24.468461</latitud>
+                <altitud>4.98</altitud>
+                <sector>2</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">450.39</distancia>
+                <longitudCoor>54.602826</longitudCoor>
+                <latitud>24.466782</latitud>
+                <altitud>5.07</altitud>
+                <sector>2</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">307.9</distancia>
+                <longitudCoor>54.606274</longitudCoor>
+                <latitud>24.464170</latitud>
+                <altitud>4.10</altitud>
+                <sector>2</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">91.05</distancia>
+                <longitudCoor>54.609059</longitudCoor>
+                <latitud>24.463075</latitud>
+                <altitud>3.82</altitud>
+                <sector>2</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">91.42</distancia>
+                <longitudCoor>54.609616</longitudCoor>
+                <latitud>24.463759</latitud>
+                <altitud>5.21</altitud>
+                <sector>2</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">266.98</distancia>
+                <longitudCoor>54.609154</longitudCoor>
+                <latitud>24.464510</latitud>
+                <altitud>4.64</altitud>
+                <sector>3</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">131.61</distancia>
+                <longitudCoor>54.606527</longitudCoor>
+                <latitud>24.464752</latitud>
+                <altitud>3.17</altitud>
+                <sector>3</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">120.13</distancia>
+                <longitudCoor>54.605492</longitudCoor>
+                <latitud>24.465501</latitud>
+                <altitud>3.19</altitud>
+                <sector>3</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">119.1</distancia>
+                <longitudCoor>54.605323</longitudCoor>
+                <latitud>24.466595</latitud>
+                <altitud>3.13</altitud>
+                <sector>3</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">125.57</distancia>
+                <longitudCoor>54.606502</longitudCoor>
+                <latitud>24.466812</latitud>
+                <altitud>3.23</altitud>
+                <sector>3</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">290.25</distancia>
+                <longitudCoor>54.606375</longitudCoor>
+                <latitud>24.467918</latitud>
+                <altitud>2.97</altitud>
+                <sector>3</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">162.25</distancia>
+                <longitudCoor>54.603523</longitudCoor>
+                <latitud>24.467680</latitud>
+                <altitud>4.26</altitud>
+                <sector>3</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">63.8</distancia>
+                <longitudCoor>54.602651</longitudCoor>
+                <latitud>24.468951</latitud>
+                <altitud>4.17</altitud>
+                <sector>3</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">295.36</distancia>
+                <longitudCoor>54.602630</longitudCoor>
+                <latitud>24.469540</latitud>
+                <altitud>4.17</altitud>
+                <sector>3</sector>
+            </coordenadas_finales>
+        </tramo>
+        <tramo>
+            <coordenadas_finales>
+                <distancia unidad="m">0</distancia>
+                <longitudCoor>54.605500</longitudCoor>
+                <latitud>24.469966</latitud>
+                <altitud>3.79</altitud>
+                <sector>3</sector>
+            </coordenadas_finales>
+        </tramo>
+    </tramos>
+</circuito>
